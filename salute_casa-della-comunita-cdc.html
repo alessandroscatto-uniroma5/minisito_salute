@@ -11,29 +11,15 @@
     <link rel="stylesheet" media="all" href="https://salute.regione.veneto.it/sites/default/files/css/css_0k5WKWcHEeX4Qh5V2w764gqQvboIbYOPDnLTsUdPO24.css" />
 
     <style>
-      /* Assicura la corretta visualizzazione del logo e della testata */
       .it-brand-wrapper a {
-        display: flex !important;
-        align-items: center;
+        display: inline-block !important;
         text-decoration: none;
       }
       .custom-header-logo {
         height: 52px;
         width: auto;
-        margin-right: 14px;
-        display: inline-block;
+        display: block;
       }
-      .it-brand-title {
-        color: #004b7a;
-        font-weight: 700;
-        font-size: 1.25rem;
-        line-height: 1.2;
-      }
-      .it-brand-tagline {
-        color: #555;
-        font-size: 0.9rem;
-      }
-      /* Centratura e resa video */
       .video-box video {
         max-width: 100%;
         height: auto;
@@ -46,8 +32,8 @@
   <body class="is-mobile user-anonymous">
     <div id="page-default">
 
-
-        <!-- Fascia Centrale con Logo e Titolo -->
+      <!-- Header con soli loghi -->
+      <header class="it-header-wrapper d-print-none">
         <div class="it-nav-wrapper">
           <div class="it-header-center-wrapper py-3">
             <div class="container">
@@ -56,10 +42,6 @@
                   <div class="it-brand-wrapper">
                     <a href="https://salute.regione.veneto.it/" title="Home">
                       <img src="https://salute.regione.veneto.it/sites/default/files/logo-regione_0.png" alt="Logo Regione del Veneto" class="custom-header-logo">
-                      <div class="it-brand-text">
-                        <div class="it-brand-title">Regione del Veneto</div>
-                       <!-- <div class="it-brand-tagline">Il Portale della Salute</div> -->
-                      </div>
                     </a>
                   </div>
                 </div>
@@ -69,7 +51,7 @@
         </div>
       </header>  
 
-      <!-- CONTENUTO PRINCIPALE -->
+      <!-- Contenuto principale -->
       <main id="it-main-content" class="py-4">
         <div class="container">
           <div class="row">
